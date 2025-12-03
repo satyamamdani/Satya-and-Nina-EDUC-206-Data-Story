@@ -40,10 +40,10 @@
             <a class="nav-link js-scroll-trigger" href="#section2">Findings</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section3">EDIT Section 3</a>
+            <a class="nav-link js-scroll-trigger" href="#section3">Methods</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section4">EDIT Section 4</a>
+            <a class="nav-link js-scroll-trigger" href="#section4">Sources</a>
           </li>
         </ul>
       </div>
@@ -147,11 +147,12 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>EDIT Section 3 Label</h2>
+          <h2>What about state & local sources?</h2>
 
-          <p>Create a separate section to describe how you obtained your data, key steps in your process, and cautions for interpreting its meaning. Write for an audience of future Trinity College students who may wish to replicate your steps. Write in HTML format and always include links to data sources, like this example from <a href='https://data.ct.gov'>CT Open Data</a>. Also link to your shared Google Sheets when appropriate.</p>
+          <p>While the maps and charts above showed that Connecticut consistently spends high amounts on education, these numbers reflected total education spending. Which led us to wonder, how does Connecticut's spending breakdown between local and state spending compare to other states? State education budgets pull funding from three areas: federal funds, state funds and local funds. Our guiding questions asked us to focus on state and local sources because these are the funds controlled by Connecticut, federal funding has different limitations.
+</p>
 
-          <p>Give credit to people, organizations, resources, and tools that helped you to create this data story. Write in HTML format and include links when appropriate. When you paraphrase or quote from a specific reading, cite it using any standard academic citation style (such as MLA or APA inline citations), and include the full reference in a bibliography section at the end of your data story. For help with creating citations, I highly recommend the <a href='https://zbib.org'>Zbib.org</a> tool. Insert any URL, but you may need to click the Edit button to manually add missing details, such as author and date if the tool does not automatically recognize them, as shown in Image 1 and 2 below.</p>
+          <p>This table breaks down how states fund their education systems, showing the share of revenue that comes from local and state sources. It also highlights the percent of expenses at both local and state level. About 36% of Connecticut's education budget comes from state sources, which is on the low end in comparison to other states. Connecticut’s percentage of education funding from the state is among the lowest in the country, ranking in the bottom ten states. For local sources the story is much different. 56% of Connecticut's total revenue comes from local sources, making it the 5th highest amount in the nation. This tells us that over half of Connecticut's education budget is funded by local sources. This finding helps illustrate Connecticut’s reliance on local funding and its consistently high level of total revenue compared to other states.</p>
 
           <img src="screenshots/sample-zbib1.png" style="width: 100%; margin: 30px 0">
           <p><i>Image 1: After inserting a URL into the ZBib.org tool, you may need to click the Edit button to manually add missing details.</i></p>
@@ -159,16 +160,30 @@
           <img src="screenshots/sample-zbib2.png" style="width: 100%; margin: 30px 0">
           <p><i>Image 2: Clicking the Edit button in ZBib allows you to enter or correct missing details, such as the full Website Title.</i></p>
 
-          <p>Below are sample sentences with MLA inline citations that would appear in the body of the data story, followed by the full references that would appear in the bibliography at the bottom:</p>
+          <p>This table gives us lots of information about where Connecticut ranks in local and state sources. Large amounts of local spending can signify wealth inequality, which is true for Connecticut, a state that has some of the highest income inequality in the nation. This could impact the funding equity for students. This is because local funding comes from local sources, like property taxes, which means that wealthier districts can receive more funding that lower-income districts. On the other hand, the state spending is lower than expected, signifying that the government is contributing less money than the average state. These top money sources come from personal income taxes and general sales and use tax. Most of Connecticut’s state budget depends on people’s wages and salaries, so education spending goes up or down depending on income. The lower percentage of state revenue means there is less money to fund public services, such as institutions. According to Ct Mirror the general fund of CT is spent the highest amount on non-functional services, the biggest example being Debt service. Which is the money a state must pay each year to cover its existing debt. This means that before a state can spend money on education, health, or social programs, it must pay its debt obligations. Overall, while Connecticut’s total education budget is among the highest in the nation, the high amount of local funding reveals Connecticut’s income inequality and could indicate unequal funding allocations within Connecticut districts. 
+</p>
 
-          <h4>Sample sentences</h4>
+          <h4>Methods</h4>
 
-          <p>The City of Hartford recently created a housing code that requires the registration of the full names and contact information for all owners of apartment buildings -- including the officers of Limited Liability Corporations (LLCs) -- in order to "close municipal loopholes that allow anonymous slumlords to operate unchecked" (Lurye).</p>
+          <p>Our guiding questions asked us to find whether CT was really a high spending education state and how public school spending varied across the United States. We found our data through the suggested starting points that were given to us by our professor, Jack Dougherty. Through these starting points, we were able to sort and find the necessary data tables that held the information to be able to compare cost of living between states. Our main data source was the US Department of Education’s data on revenues and expenditures for public elementary and secondary schools from the 2023 fiscal year. We began our analysis with Table 4 which included the current expenditures per pupil. We cleaned and analyzed the data in a spreadsheet and moved on to finding spending per pupil adjusted for cost of living.</p>
 
-          <p>In most towns, the percentage of high-needs students enrolled in traditional public schools surpasses those enrolled in magnet, charter, and technical schools in the most recent academic year (“Resident Town Export”).</p>
+          <p>Uncertainties that we faced when finding this adjustment was identifying which cost of living source worked best for our research. Reliable sources provided to us by our class findings were both the Missouri Economic Research and Information Center and US Bureau of Economic Analysis. At first, we wanted to use the Missouri Source, this is because the information was clear and it explicitly identified the different levels of expenses. It provided us with the total index and had the most recent data from the current year 2025. Through our research, we discovered that the year 2025 was not the year we were using for all of our other data. With this, we decided that the US data source was a better option for us, particularly because the data was from 2023. Even though the US data source seemed to be less clear and less up to date than the Missouri source, it was more meaningful to our findings. So, to find the cost of living that aligned with our current data, we used the US Bureau of Economic Analysis to calculate per pupil with cost of living. Our ultimate goal was to make sure our data matched correctly and was meaningful. To calculate cost of living we followed the formula below: 
 
-          <p>...later, insert a bibliography at the end of your data story:</p>
+ Adjusted Spend per Pupil = (Spend per Pupil / BEA Cost of Living Index) *100
 
+For example New York is a high cost of living state and in the 2022-23 school year they spend $29,588 per student. The cost of living index for New York in 2023 was 107.626. When we plug these values into the formula our adjusted spend per pupil is $27,491. 
+
+ $27,491 = (29,588 / 107.626) *100
+
+Let's do another example with Arkansas, a state with a lower cost of living. In the 2022-23 school year Arkansas spent $12,764 per student. The cost of living index for Arkansas in 2023 was 86.508. When we plug these values into the formula our adjusted spend per pupil is $14,755. 
+
+ $14,755 = (12,764/ 86.508) *100
+
+These examples show what happens with states that are higher than the median and lower than the median. In Arkansas the spend per student was raised and in New York the spend per student was lowered. This formula allowed us to normalize the data and find the adjusted spending per pupil which made our comparisons across states more accurate.  
+</p>
+
+          <p>Our next step was to find local and federal funding per pupil through the US Department of Education Data, from fiscal year 2022-23 table 1. Converting this data into a spreadsheet and cleaning it up was less difficult because most of the information given to us was necessary for our next steps. One of the columns we decided to get rid of was federal funding because it did not involve our analysis. The next steps we took were to calculate the percentage of local revenue, the percentage of state revenue, and the percentage of total revenue. After we were able to calculate these percentages and meaningfully interpret the data, we started by asking the question “How does Connecticut's breakdown between local spending and state spending compare nationally and regionally?” Through this question we created an interactive chart that showed local and state funding across the United States. With the use of this chart, readers are able to better understand the information we are giving them because they can visualize revenue between state and local sources.</p>
+ <p>When converting these tables to google sheets and beginning the process of normalizing and cleaning the data from the original table, it was important to know which information needed to be kept in our sheet and which information was fine to be deleted. Analyzing which data was needed was crucial because unnecessary data can cause confusion and also misinterpretation of the main question. This process of cleaning data and calculating necessary percentages was the most tedious because we had to figure out which columns of data were significant for our findings and which columns were unnecessary. For example, when converting the table that held spending per student across the US data, we only kept four columns of data and got rid of almost 10 columns of data. We felt that this was the best way to make use of the data we were given and not get carried away from the main question we are answering.</p> 
           <h4>Works Cited:</h4>
 
           <p>Lurye, Rebecca. “New Housing Code in Hartford Would Keep Slumlords from Hiding Behind LLCs.” Hartford Courant, May 31, 2019. <a href='https://www.courant.com/community/hartford/hc-news-hartford-housing-code-20190531-hcke2jo2x5fpdgz75xf4hlv2ki-story.html'>https://www.courant.com/community/hartford/hc-news-hartford-housing-code-20190531-hcke2jo2x5fpdgz75xf4hlv2ki-story.html</a>.</p>
